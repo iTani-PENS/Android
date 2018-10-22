@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:contentInsetLeft="16dp"
+        android:contentInsetRight="16dp"
+        android:contentInsetStart="16dp"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="0dp"
+        app:contentInsetLeft="16dp"
+        app:contentInsetRight="16dp"
+        app:contentInsetStart="16dp">
+
+
+
+
+        <ImageView
+
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="left"
+            android:src="@drawable/back" />
+
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_horizontal"
+            android:src="@drawable/icon_app" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/background"
+        android:divider="#00000000"
+        android:scrollbars="none" />
+
+
+</LinearLayout>

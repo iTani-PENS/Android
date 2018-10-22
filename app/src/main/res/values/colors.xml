@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#83BD6A</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_m10">#3D3D3D</color>
+    <color name="text_m9">#3D3D3D</color>
+    <color name="text">#666666</color>
+    <color name="sub_text">#919191</color>
+    <color name="sub_text_onboarding">#B7B7B7</color>
+    <color name="bg_onboarding">#F3F4F4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#0D9F67</color>
+    <color name="stroke">#C7C7C7</color>
+
+    <color name="line">#E6E9ED</color>
+
+    <color name="coffee">#DBC8A8</color>
+    <color name="background">#F3F3F3</color>
+
+    <color name="unselected_slider">#4d848D9A</color>
+    <color name="selected_slider">#848D9A</color>
+
+    <color name="line_od8">#c1c1c1</color>
+
+    <color name="line_form6">#c7c7c7</color>
+
+    <color name="title_text_color_sidebar_18">#000000</color>
+
+    <color name="txt_green">#008000</color>
+    <color name="toolbar_text_color_sidebar_04">#ffffff</color>
+
+    <dimen name="title_text_size_sidebar_01">20dp</dimen>
+    <dimen name="content_text_size_sidebar_01">16dp</dimen>
+
+    <!--listview_sidebar_01 text size-->
+
+    <dimen name="list_view_text_size_sidebar_01">22dp</dimen>
+
+    <!-- listview_sidebar_02 colors -->
+    <color name="lisview_text_color_sidebar_02">#acacac</color>
+
+    <!--toolbar_sidebar_02 colors-->
+    <color name="toolbar_text_color_sidebar_02">#ffffff</color>
+
+    <!--content_page colors-->
+
+    <color name="title_text_color_sidebar_02">#000000</color>
+    <color name="lisview_text_color_sidebar_03">#acacac</color>
+
+    <!--toolbar_sidebar_03 colors-->
+    <color name="toolbar_text_color_sidebar_03">#ffffff</color>
+
+    <!--content_page colors-->
+
+    <color name="title_text_color_sidebar_03">#000000</color>
+
+    <color name="txt_sidebar03">#666666</color>
+
+    <color name="text_sidebar05">#919191</color>
+    <color name="text_colour1_sidebar05">#4E5161</color>
+    <color name="menu_back_colour_sidebar05">#ffffff</color>
+    <color name="home_back_colour_sidebar05">#EE2337</color>
+    <color name="view_colour_sidebar05">#80333333</color>
+
+
+    <color name="line_s2">#EFEFEF</color>
+
+
+    <color name="titletext_colour_sidebar06">#acacac</color>
+    <color name="text_colour1_sidebar06">#4E5161</color>
+    <color name="menu_back_colour_sidebar06">#ffffff</color>
+    <color name="home_back_colour_sidebar06">#0D9F67</color>
+    <color name="view_colour_sidebar06">#80333333</color>
+
+
+    <color name="text_p1">#B7B7B7</color>
+
+
+
+
+    <color name="line_fav2">#C7C7C7</color>
+</resources>
