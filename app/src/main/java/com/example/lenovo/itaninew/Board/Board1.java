@@ -1,4 +1,4 @@
-package com.example.lenovo.itaninew;
+package com.example.lenovo.itaninew.Board;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.lenovo.itaninew.R;
 
 
 public class Board1 extends Fragment {

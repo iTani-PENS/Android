@@ -4,6 +4,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.example.lenovo.itaninew.Board.Board1;
+import com.example.lenovo.itaninew.Board.Board2;
+import com.example.lenovo.itaninew.Board.Board3;
+
 /**
  * Created by wolfsoft on 10/11/2015.
  */
