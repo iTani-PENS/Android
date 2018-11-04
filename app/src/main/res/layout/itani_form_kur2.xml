@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormKur2">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#05B72F"
+        android:contentInsetLeft="16dp"
+        android:contentInsetRight="16dp"
+        android:contentInsetStart="16dp"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="0dp"
+        app:contentInsetLeft="16dp"
+        app:contentInsetRight="16dp"
+        app:contentInsetStart="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/eshop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="35dp"
+            android:text="Form Pengajuan KUR"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Foto KTP"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih File" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:hint="pilih file"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Foto KK"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih File" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:hint="pilih file"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Foto Akta Nikah"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih File" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:hint="pilih file"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Foto Akta Nikah"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih File" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:hint="pilih file"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="5dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="#00000000"
+                    android:hint="Koordinat Tanah"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:padding="5dp"
+                    android:textColor="@color/text"
+                    android:textColorHint="@color/sub_text"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_detailbox1"
+                    android:paddingBottom="2.5dp"
+                    android:paddingTop="2.5dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Koordinat Latitute"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="12dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_detailbox1"
+                    android:paddingBottom="2.5dp"
+                    android:paddingTop="2.5dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="left"
+                        android:hint="Koordinat Longitute"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="12dp"
+                        android:textColor="@color/text"
+                        android:textColorHint="@color/sub_text"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <Button
+                    android:id="@+id/prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bgedittext"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Sebelumnya"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/bgedittext"
+                    android:gravity="center"
+                    android:text="Selesai"
+                    android:textColor="#FFF" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
