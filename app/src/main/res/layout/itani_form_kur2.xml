@@ -373,10 +373,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@drawable/bgedittext"
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="Sebelumnya"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:textSize="16dp"
+                    android:background="@drawable/bgbutton"
                     android:textColor="#FFF" />
 
                 <Button
@@ -386,7 +389,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:background="@drawable/bgedittext"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:textSize="16dp"
+                    android:background="@drawable/bgbutton"
                     android:gravity="center"
                     android:text="Selesai"
                     android:textColor="#FFF" />

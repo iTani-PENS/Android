@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
-        android:background="#05B72F"
+        android:background="@color/colorPrimary"
         android:contentInsetLeft="16dp"
         android:contentInsetRight="16dp"
         android:contentInsetStart="16dp"
@@ -165,6 +165,7 @@
                     android:textColor="@color/text"
                     android:lines="1" />
             </LinearLayout>
+
 
             <LinearLayout
 
@@ -338,7 +339,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_gravity="right"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -350,15 +351,21 @@
                 android:layout_marginBottom="10dp">
 
                 <Button
+                    android:id="@+id/next"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Selanjutnya"
-                    android:gravity="right"
-                    android:layout_gravity="right"
-                    android:background="#05B72F"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:textSize="16dp"
+                    android:padding="10dp"
+                    android:background="@drawable/bgbutton"
                     android:textColor="#FFF"/>
 
-            </LinearLayout>
+            </RelativeLayout>
 
         </LinearLayout>
 

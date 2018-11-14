@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Komoditas">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:contentInsetLeft="16dp"
+        android:contentInsetRight="16dp"
+        android:contentInsetStart="16dp"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="0dp"
+        app:contentInsetLeft="16dp"
+        app:contentInsetRight="16dp"
+        app:contentInsetStart="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="35dp"
+            android:text="KOMODITAS"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/icon_app" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/idcari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_detailbox1"
+                    android:paddingTop="2.5dp"
+                    android:paddingBottom="2.5dp"
+                    android:layout_marginBottom="10dp">
+
+                    <EditText
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Komoditas . . ."
+                        android:textSize="14dp"
+                        android:textColorHint="@color/sub_text"
+                        android:background="#00000000"
+                        android:padding="8dp"
+                        android:inputType="text"
+                        android:textColor="@color/text"
+                        android:lines="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ListView
+                android:layout_below="@id/idcari"
+                android:id="@+id/lv_komoditas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/background"
+                android:scrollbars="none"
+                />
+
+            <LinearLayout
+                android:layout_below="@+id/lv_kabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/simpan"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_signup"
+                    android:paddingTop="2.5dp"
+                    android:paddingBottom="2.5dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Selanjutnya"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:padding="12dp"
+                        android:lines="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

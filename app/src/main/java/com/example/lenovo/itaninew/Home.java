@@ -31,14 +31,14 @@ public class Home extends AppCompatActivity {
         cv_kur.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //activity_kur();
+                activity_kur();
             }
         });
 
         cv_komoditas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //activity_komoditas();
+                //itani_komoditas();
             }
         });
 
@@ -50,10 +50,10 @@ public class Home extends AppCompatActivity {
         });
     }
 
-//    public void masuk() {
-//        Intent intent = new Intent(this, Home.class);
-//        startActivity(intent);
-//    }
+  public void activity_kur() {
+      Intent intent = new Intent(this, FormKUR.class);
+      startActivity(intent);
+  }
 //
 //    public void daftar() {
 //        Intent intent = new Intent(this, Daftar.class);

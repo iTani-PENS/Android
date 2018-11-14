@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
-        android:background="#05B72F"
+        android:background="@color/colorPrimary"
         android:contentInsetLeft="16dp"
         android:contentInsetRight="16dp"
         android:contentInsetStart="16dp"

@@ -46,7 +46,7 @@
                 android:typeface="serif"
                 android:textSize="16dp"
                 android:text="MASUK"
-                android:background="@drawable/bgbutton"
+                android:background="@drawable/bg_signup"
                 android:textColor="#FFF"
                 android:id="@+id/masuk"/>
 

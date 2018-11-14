@@ -31,7 +31,6 @@
             android:name=".EditProfil"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             >
-
         </activity>
         <activity
             android:name=".FormEditProfil.FormEditNama"
@@ -71,14 +70,17 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".FormKUR"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-
-
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".FormKur2"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".Komoditas">
+
+        </activity>
+        <activity android:name=".Provinsi">
+
+        </activity>
+        <activity android:name=".Kabupaten">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

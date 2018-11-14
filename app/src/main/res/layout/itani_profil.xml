@@ -5,15 +5,13 @@
     android:background="@color/white"
     >
 
-
-
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
-        android:background="#05B72F"
+        android:background="@color/colorPrimary"
         android:contentInsetLeft="16dp"
         android:contentInsetRight="16dp"
         android:contentInsetStart="16dp"
@@ -485,7 +483,6 @@
         </LinearLayout>
 
     </ScrollView>
-
 
 </RelativeLayout>
 
