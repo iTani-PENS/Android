@@ -13,79 +13,61 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SplashScreen" />
         <activity
-            android:name=".Daftar"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".Daftar"/>
         <activity
-            android:name=".Login"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".Login"/>
         <activity
-            android:name=".Home"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".Home"/>
         <activity
-            android:name=".Boarding"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".Boarding" />
         <activity
-            android:name=".OpsiKUR"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".OpsiKUR" />
         <activity
-            android:name=".EditProfil"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            android:name=".EditProfil">
             >
         </activity>
         <activity
-            android:name=".FormEditProfil.FormEditNama"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditNama"/>
         <activity
-            android:name=".FormEditProfil.FormEditNIK"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditNIK"/>
         <activity
-            android:name=".FormEditProfil.FormEditNoKK"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditNoKK" />
         <activity
-            android:name=".FormEditProfil.FormEditNoKTP"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditNoKTP"/>
         <activity
-            android:name=".FormEditProfil.FormEditAlamat"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditAlamat"/>
         <activity
-            android:name=".FormEditProfil.FormEditLokasiTanah"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditLokasiTanah"/>
         <activity
-            android:name=".FormEditProfil.FormEditFotoSelfieKTP"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditFotoSelfieKTP"/>
         <activity
-            android:name=".FormEditProfil.FormEditKTP"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditKTP"/>
         <activity
-            android:name=".FormEditProfil.FormEditKK"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditKK"/>
         <activity
-            android:name=".FormEditProfil.FormEditAktaTanah"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditAktaTanah"/>
         <activity
-            android:name=".FormEditProfil.FormEditAktaNikah"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".FormEditProfil.FormEditAktaNikah"/>
         <activity
-            android:name=".Support"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:name=".Support"/>
         <activity
-            android:name=".FormKUR"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity
-            android:name=".FormKur2"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".Komoditas">
-
-        </activity>
-        <activity android:name=".Provinsi">
-
-        </activity>
-        <activity android:name=".Kabupaten">
+            android:name=".FormKUR">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FormKur2"/>
+        <activity android:name=".Komoditas"></activity>
+        <activity android:name=".Provinsi"></activity>
+        <activity android:name=".Kabupaten">
+
+        </activity>
+        <activity android:name=".Persyaratan2">
+
         </activity>
     </application>
 

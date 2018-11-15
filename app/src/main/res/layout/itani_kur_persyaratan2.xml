@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Persyaratan2">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:contentInsetLeft="16dp"
+        android:contentInsetRight="16dp"
+        android:contentInsetStart="16dp"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="0dp"
+        app:contentInsetLeft="16dp"
+        app:contentInsetRight="16dp"
+        app:contentInsetStart="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="35dp"
+            android:text="SYARAT dan KETENTUAN"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/icon_app" />
+
+    </android.support.v7.widget.Toolbar>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/toolbar">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_keterangan"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_signup"
+                    android:text="Syarat Umum"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textColor="#FFF"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1. Kriteria Pemohon :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Individu/perseorangan atau Badan Usaha[dhi. Usaha Mikro, Kecil, dan Menengah. Anggota Keluarga dari karyawan/karyawati yang berpenghasilan tetap atau bekerja sebagai Tenaga Kerja Indonesia(TKI). TKI yang purna dari bekerja di luar negeri. Dan pekerja yang terkena Pemutusan Hubungan Kerja] yang melakukan usaha produktif dan layak namun belum memiliki agunan tambahan atau agunan tambahan belum cukup."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2. Perijinan Perusahaan :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="a. "
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="b. "
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="c. "
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    />
+            </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/cek"
+               android:orientation="vertical">
+
+               <CheckBox
+                   android:id="@+id/cb_macos"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:checked="false"
+                   android:layout_gravity="center"
+                   android:padding="20dp"
+                   android:text="Saya Menyetujui Persyaratan diatas" />
+
+               <LinearLayout
+                   android:id="@+id/simpan"
+                   android:layout_gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:background="@drawable/bg_signup"
+                   android:paddingTop="2.5dp"
+                   android:paddingBottom="2.5dp"
+                   android:layout_marginBottom="30dp">
+
+                   <TextView
+                       android:gravity="center"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Selanjutnya"
+                       android:textSize="14dp"
+                       android:textColor="@color/white"
+                       android:padding="12dp"
+                       android:lines="1" />
+
+               </LinearLayout>
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+</RelativeLayout>
