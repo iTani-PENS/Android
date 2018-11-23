@@ -12,11 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Daftar" />
         <activity android:name=".Login" />
@@ -25,30 +20,30 @@
         <activity android:name=".EditProfil">
             >
         </activity>
-        <activity android:name=".FormEditProfil.FormEditNama" />
-        <activity android:name=".FormEditProfil.FormEditNIK" />
-        <activity android:name=".FormEditProfil.FormEditNoKK" />
-        <activity android:name=".FormEditProfil.FormEditNoKTP" />
-        <activity android:name=".FormEditProfil.FormEditAlamat" />
         <activity android:name=".Support" />
         <activity android:name=".KUR.FormKUR" />
         <activity android:name=".KUR.FormKUR2" />
         <activity android:name=".Komoditas.Komoditas" />
         <activity android:name=".Komoditas.Provinsi" />
         <activity android:name=".Komoditas.Kabupaten" />
-        <activity android:name=".KUR.Persyaratan2">
+        <activity android:name=".Komoditas.HargaKomoditas">
+
+        </activity>
+        <activity android:name=".KUR.FormKUR3" />
+        <activity android:name=".KUR.FormKUR4" />
+        <activity android:name=".KUR.FormKUR5" />
+        <activity android:name=".KUR.Persyaratan1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KUR.FormKUR3" />
-        <activity android:name=".KUR.FormKUR4" />
-        <activity android:name=".KUR.FormKUR5" />
+
+        <activity android:name=".KUR.Persyaratan2">
+
+        </activity>
         <activity android:name=".KUR.Persyaratan3" />
-        <activity android:name=".KUR.Persyaratan1" />
-        <activity android:name=".Komoditas.HargaKomoditas"></activity>
     </application>
 
 </manifest>

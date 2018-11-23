@@ -40,13 +40,6 @@
             android:textColor="@color/white"
             android:textSize="16dp" />
 
-        <ImageView
-            android:id="@+id/setting"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_gravity="right"
-            android:src="@drawable/icon_app" />
-
     </android.support.v7.widget.Toolbar>
 
     <ScrollView
@@ -64,11 +57,20 @@
                 android:orientation="vertical"
                 >
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Komoditas"
+                    android:textSize="16dp"/>
+
                 <LinearLayout
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/bg_detailbox1"

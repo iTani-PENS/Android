@@ -36,13 +36,13 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginRight="35dp"
-            android:text="KABUPATEN"
+            android:text="KOMODITAS"
             android:textColor="@color/white"
             android:textSize="16dp" />
 
         <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:layout_gravity="right"
             android:src="@drawable/icon_app" />
 
@@ -139,18 +139,13 @@
                 android:text="Grafik Harga Komoditas 7 Hari Sebelumnya"
                 android:textSize="14dp"/>
 
-            <LinearLayout
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/bg_detailbox1"
-                android:orientation="horizontal">
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical">
 
-
-
-            </LinearLayout>
+            </com.github.mikephil.charting.charts.BarChart>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

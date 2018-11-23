@@ -33,6 +33,15 @@
             android:layout_gravity="left"
             android:src="@drawable/back" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="35dp"
+            android:text="KUR"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
 
         <ImageView
 
@@ -43,18 +52,6 @@
 
 
     </android.support.v7.widget.Toolbar>
-
-
-
-
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/background"
-        android:divider="#00000000"
-        android:scrollbars="none" />
 
 
 </LinearLayout>
