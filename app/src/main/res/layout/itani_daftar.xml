@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Daftar"
-    android:background="@drawable/bgdasar">
+    android:background="@color/colorPrimary">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:typeface="serif"
                 android:textSize="16dp"
                 android:text="DAFTAR"
-                android:background="@drawable/bg_signup"
+                android:background="@drawable/bgbutton"
                 android:textColor="#FFF"
                 android:id="@+id/daftar"/>
 

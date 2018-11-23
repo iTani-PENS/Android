@@ -5,17 +5,13 @@
     android:background="#00000000"
     android:orientation="vertical">
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-
         <LinearLayout
+            android:id="@+id/icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
@@ -28,21 +24,21 @@
                 android:gravity="center" />
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="55dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="3"
+            android:text="The Little Coffee Shop serves specialty coffee, fancy grilled cheese sandwiches, scratch cooking, craft ales, and cider."
+            android:textColor="#FFF"
+            android:textSize="13dp" />
 
-    </FrameLayout>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/get_start"
-        android:layout_marginBottom="55dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginRight="36dp"
-        android:gravity="center"
-        android:lineSpacingExtra="4dp"
-        android:maxLines="3"
-        android:text="The Little Coffee Shop serves specialty coffee, fancy grilled cheese sandwiches, scratch cooking, craft ales, and cider."
-        android:textColor="#FFF"
-        android:textSize="13dp" />
+    </RelativeLayout>
+    
 </RelativeLayout>

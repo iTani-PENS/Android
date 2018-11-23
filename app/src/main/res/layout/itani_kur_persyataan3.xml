@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KUR.Persyaratan2">
+    tools:context=".KUR.Persyaratan3">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -48,15 +48,15 @@
 
     </android.support.v7.widget.Toolbar>
 
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:layout_below="@+id/toolbar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
 
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/keterangan"
@@ -71,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
-                    android:text="Syarat Umum"
+                    android:text="Persyaratan Pemohon"
                     android:gravity="center"
                     android:textSize="16dp"
                     android:textColor="#FFF"
@@ -80,7 +80,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="1. Kriteria Pemohon :"
+                    android:text="1. Semua data yang disampaikan kepada BNI telah lengkap dan benar"
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
@@ -91,17 +91,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Individu/perseorangan atau Badan Usaha[dhi. Usaha Mikro, Kecil, dan Menengah. Anggota Keluarga dari karyawan/karyawati yang berpenghasilan tetap atau bekerja sebagai Tenaga Kerja Indonesia(TKI). TKI yang purna dari bekerja di luar negeri. Dan pekerja yang terkena Pemutusan Hubungan Kerja] yang melakukan usaha produktif dan layak namun belum memiliki agunan tambahan atau agunan tambahan belum cukup."
+                    android:text="2. BNI telah memberikan informasi yang jelas dan memadai kepada Pemohon perihal prosedur, syarat dan ketentuan KUR MIKRO BNI"
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
-                    android:paddingLeft="30dp"
+                    android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="2. Perijinan Perusahaan :"
+                    android:text="3.	Pemohon telah membaca dan memahami ketentuan KUR MIKRO BNI dan setuju untuk terikat dan tunduk pada ketentuan KUR MIKRO BNI"
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
@@ -112,75 +112,74 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="a. "
+                    android:text="4. Pemohon memahami maksimum kredit yang diajukan Pemohon tidak Mengikat dan BNI memiliki kewenangan penuh untuk menetapkan maksimum kredit yang diberikan berdasarkan hasil analisa BNI"
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
-                    android:paddingLeft="30dp"
+                    android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="b. "
+                    android:text="5.	BNI berhak menolak permhonan KUR MIKRO BNI yang diajukan Pemohon apabila Pemohon tidak memenuhi persyaratan untuk memperoleh Fasilitas KUR MIKRO BNI"
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
-                    android:paddingLeft="30dp"
+                    android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="c. "
-                    android:gravity="left"
-                    android:textSize="16dp"
-                    android:textColor="#000"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp"
                     />
             </LinearLayout>
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:id="@+id/cek"
-               android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cek"
+                android:orientation="vertical">
 
-               <CheckBox
-                   android:id="@+id/cb_macos"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:checked="false"
-                   android:layout_gravity="center"
-                   android:padding="20dp"
-                   android:text="Saya Menyetujui Persyaratan diatas" />
+                <CheckBox
+                    android:id="@+id/cb_check1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Dengan ini Saya menyatakan bahwa segala informasi dan data yang Saya cantumkan/tuliskan dalam E-Form Permohonan Kredit ini adalah benar dan sesuai dengan infomasi dan data yang sebenarnya dan Saya setuju untuk memberikan informasi dan data tersebut kepada PT Bank Negara Indonesia (Persero) Tbk." />
 
-               <LinearLayout
-                   android:id="@+id/simpan"
-                   android:layout_gravity="center"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:layout_marginLeft="20dp"
-                   android:layout_marginRight="20dp"
-                   android:background="@drawable/bg_signup"
-                   android:paddingTop="2.5dp"
-                   android:paddingBottom="2.5dp"
-                   android:layout_marginBottom="30dp">
+                <CheckBox
+                    android:id="@+id/cb_check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="	Dengan ini Saya mengajukan permohonan kredit sesuai dengan informasi dan data yang telah saya berikan kepada PT Bank Negara Indonesia (Persero) Tbk. sebagai mana dimaksud dalam E-Form Permohonan Kredit ini untuk dapat di proses dan ditindaklanjuti oleh PT Bank Negara Indonesia (Persero) Tbk sesuai dengan ketentuan perkreditan yang berlaku." />
 
-                   <TextView
-                       android:gravity="center"
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       android:text="Selanjutnya"
-                       android:textSize="14dp"
-                       android:textColor="@color/white"
-                       android:padding="12dp"
-                       android:lines="1" />
+                <LinearLayout
+                    android:id="@+id/simpan"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_signup"
+                    android:paddingTop="2.5dp"
+                    android:paddingBottom="2.5dp"
+                    android:layout_marginBottom="30dp">
 
-               </LinearLayout>
-           </LinearLayout>
-       </LinearLayout>
-   </ScrollView>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kirim"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:padding="12dp"
+                        android:lines="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

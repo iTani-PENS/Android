@@ -42,6 +42,13 @@
             android:textColor="@color/white"
             android:textSize="16dp" />
 
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/back" />
+
 
     </android.support.v7.widget.Toolbar>
 

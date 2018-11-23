@@ -11,12 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Daftar" />
         <activity android:name=".Login" />
         <activity android:name=".Home" />
-        <activity android:name=".Boarding" />
-        <activity android:name=".OpsiKUR" />
+        <activity android:name=".Board.Boarding" />
         <activity android:name=".EditProfil">
             >
         </activity>
@@ -25,30 +30,25 @@
         <activity android:name=".FormEditProfil.FormEditNoKK" />
         <activity android:name=".FormEditProfil.FormEditNoKTP" />
         <activity android:name=".FormEditProfil.FormEditAlamat" />
-        <activity android:name=".FormEditProfil.FormEditLokasiTanah" />
-        <activity android:name=".FormEditProfil.FormEditFotoSelfieKTP" />
-        <activity android:name=".FormEditProfil.FormEditKTP" />
-        <activity android:name=".FormEditProfil.FormEditKK" />
-        <activity android:name=".FormEditProfil.FormEditAktaTanah" />
-        <activity android:name=".FormEditProfil.FormEditAktaNikah" />
         <activity android:name=".Support" />
-        <activity android:name=".FormKUR">
-        </activity>
-        <activity android:name=".FormKUR2" />
-        <activity android:name=".Komoditas" />
-        <activity android:name=".Provinsi" />
-        <activity android:name=".Kabupaten" />
-        <activity android:name=".Persyaratan2" >
+        <activity android:name=".KUR.FormKUR" />
+        <activity android:name=".KUR.FormKUR2" />
+        <activity android:name=".Komoditas.Komoditas" />
+        <activity android:name=".Komoditas.Provinsi" />
+        <activity android:name=".Komoditas.Kabupaten" />
+        <activity android:name=".KUR.Persyaratan2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormKUR3" />
-        <activity android:name=".FormKUR4" />
-        <activity android:name=".FormKUR5" />
-        <activity android:name=".Persyaratan3"></activity>
+        <activity android:name=".KUR.FormKUR3" />
+        <activity android:name=".KUR.FormKUR4" />
+        <activity android:name=".KUR.FormKUR5" />
+        <activity android:name=".KUR.Persyaratan3" />
+        <activity android:name=".KUR.Persyaratan1" />
+        <activity android:name=".Komoditas.HargaKomoditas"></activity>
     </application>
 
 </manifest>

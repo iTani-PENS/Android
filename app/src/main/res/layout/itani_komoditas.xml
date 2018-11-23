@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Komoditas">
+    tools:context=".Komoditas.Komoditas">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -41,8 +41,9 @@
             android:textSize="16dp" />
 
         <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:id="@+id/setting"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:layout_gravity="right"
             android:src="@drawable/icon_app" />
 

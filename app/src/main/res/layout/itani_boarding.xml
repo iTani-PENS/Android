@@ -5,24 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#FFF"
+    android:background="@color/colorPrimary"
     >
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bgdasar"
-            android:scaleType="centerCrop" />
-
-
-
-
-    </FrameLayout>
-
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
