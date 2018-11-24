@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/back"
-        android:title="@string/title_home" />
+        android:id="@+id/profil"
+        android:title="Edit Profil"
+        app:showAsAction="never"/>
 
     <item
-        android:id="@+id/navigation_cuaca"
-        android:icon="@drawable/back"
-        android:title="@string/title_cuaca" />
-
-    <item
-        android:id="@+id/navigation_kur"
-        android:icon="@drawable/back"
-        android:title="@string/title_KUR" />
+        android:id="@+id/keluar"
+        android:title="Keluar"
+        app:showAsAction="never" />
 
 </menu>
