@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".KUR.OpsiKUR">
 
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
@@ -23,9 +24,6 @@
         app:contentInsetRight="16dp"
         app:contentInsetStart="16dp">
 
-
-
-
         <ImageView
 
             android:layout_width="18dp"
@@ -40,18 +38,92 @@
             android:layout_marginRight="35dp"
             android:text="KUR"
             android:textColor="@color/white"
-            android:textSize="16dp" />
-
-
-        <ImageView
-
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="right|center_horizontal"
-            android:src="@drawable/icon_app" />
-
+            android:textSize="18dp" />
 
     </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/kur"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_signup"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/icon_kur"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengajuan KUR"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:padding="12dp"
+                    android:lines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/progres"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_signup"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/chart"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Laporan Progress"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:padding="12dp"
+                    android:lines="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

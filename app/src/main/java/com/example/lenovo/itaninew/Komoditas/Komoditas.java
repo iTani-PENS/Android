@@ -1,13 +1,16 @@
 package com.example.lenovo.itaninew.Komoditas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import com.example.lenovo.itaninew.KUR.OpsiKUR;
 import com.example.lenovo.itaninew.R;
 
 public class Komoditas extends AppCompatActivity {
@@ -24,6 +27,18 @@ public class Komoditas extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.itani_komoditas_listview, R.id.textView, komoditas);
         lvkomoditas.setAdapter(arrayAdapter);
         justifyListViewHeightBasedOnChildren(lvkomoditas);
+
+        lvkomoditas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                next();
+            }
+        });
+    }
+
+    public void next() {
+        Intent intent = new Intent(this, Provinsi.class);
+        startActivity(intent);
     }
 
     public void justifyListViewHeightBasedOnChildren (ListView listView) {

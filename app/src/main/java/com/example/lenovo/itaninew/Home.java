@@ -14,6 +14,7 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 
 import com.example.lenovo.itaninew.KUR.FormKUR;
+import com.example.lenovo.itaninew.KUR.OpsiKUR;
 import com.example.lenovo.itaninew.KUR.Persyaratan1;
 import com.example.lenovo.itaninew.Komoditas.Komoditas;
 
@@ -88,7 +89,7 @@ public class Home extends AppCompatActivity {
     }
 
   public void activity_kur() {
-      Intent intent = new Intent(this, Persyaratan1.class);
+      Intent intent = new Intent(this, OpsiKUR.class);
       startActivity(intent);
   }
 

@@ -1,9 +1,11 @@
 package com.example.lenovo.itaninew.Komoditas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -23,6 +25,18 @@ public class Kabupaten extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.itani_komoditas_listview, R.id.textView, kabupaten);
         lvkabupaten.setAdapter(arrayAdapter);
         justifyListViewHeightBasedOnChildren(lvkabupaten);
+
+        lvkabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                next();
+            }
+        });
+    }
+
+    public void next() {
+        Intent intent = new Intent(this, HargaKomoditas.class);
+        startActivity(intent);
     }
 
     public void justifyListViewHeightBasedOnChildren (ListView listView) {

@@ -42,7 +42,7 @@
         android:gravity="center"
         android:lineSpacingExtra="4dp"
         android:maxLines="3"
-        android:text="The Little Coffee Shop serves specialty coffee, fancy grilled cheese sandwiches, scratch cooking, craft ales, and cider."
+        android:text="Dapatkan informasi harga pasar komoditas pertanian anda dan dapatkan modal usaha hanya dengan menggunakan smartphone anda."
         android:textColor="#FFF"
         android:textSize="13dp" />
 

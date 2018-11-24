@@ -20,7 +20,7 @@
             <ImageView
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:background="@drawable/icon"
+                android:background="@drawable/icon_kur"
                 android:gravity="center" />
         </LinearLayout>
 
@@ -35,7 +35,7 @@
             android:gravity="center"
             android:lineSpacingExtra="4dp"
             android:maxLines="3"
-            android:text="The Little Coffee Shop serves specialty coffee, fancy grilled cheese sandwiches, scratch cooking, craft ales, and cider."
+            android:text="Memudahkan anda dalam pengajuan Kredit Usaha Rakyat, tanpa harus datang dan mengantri di Bank penyedia."
             android:textColor="#FFF"
             android:textSize="13dp" />
 

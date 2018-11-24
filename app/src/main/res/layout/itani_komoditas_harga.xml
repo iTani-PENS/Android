@@ -40,12 +40,6 @@
             android:textColor="@color/white"
             android:textSize="16dp" />
 
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_gravity="right"
-            android:src="@drawable/icon_app" />
-
     </android.support.v7.widget.Toolbar>
 
     <ScrollView
@@ -146,6 +140,30 @@
                 android:layout_gravity="center_vertical">
 
             </com.github.mikephil.charting.charts.BarChart>
+
+            <LinearLayout
+                android:id="@+id/ok"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_signup"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:textSize="14dp"
+                    android:textColor="@color/white"
+                    android:padding="12dp"
+                    android:lines="1" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

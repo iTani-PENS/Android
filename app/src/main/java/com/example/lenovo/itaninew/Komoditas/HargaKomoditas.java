@@ -1,9 +1,13 @@
 package com.example.lenovo.itaninew.Komoditas;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
+import com.example.lenovo.itaninew.Home;
 import com.example.lenovo.itaninew.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.YAxis;
@@ -24,7 +28,7 @@ public class HargaKomoditas extends AppCompatActivity {
         setContentView(R.layout.itani_komoditas_harga);
 
 
-        BarChart chart = (BarChart) findViewById(R.id.chart);
+        chart = (BarChart) findViewById(R.id.chart);
 
         YAxis yAxisRight = chart.getAxisRight();
         yAxisRight.setEnabled(false);
@@ -34,6 +38,19 @@ public class HargaKomoditas extends AppCompatActivity {
         chart.setDescription("Harga Komoditas");
         chart.animateXY(2000, 2000);
         chart.invalidate();
+
+        LinearLayout ok = (LinearLayout) findViewById(R.id.ok);
+        ok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                done();
+            }
+        });
+    }
+
+    public void done() {
+        Intent done = new Intent(this, Home.class);
+        startActivity(done);
     }
 
     private ArrayList<IBarDataSet> getDataSet() {
