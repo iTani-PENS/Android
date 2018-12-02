@@ -7,10 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.example.lenovo.itaninew.KUR.OpsiKUR;
+import com.example.lenovo.itaninew.Home;
 import com.example.lenovo.itaninew.R;
 
 public class Komoditas extends AppCompatActivity {
@@ -34,6 +35,19 @@ public class Komoditas extends AppCompatActivity {
                 next();
             }
         });
+
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+    }
+
+    public void back(){
+        Intent back = new Intent(this, Home.class);
+        startActivity(back);
     }
 
     public void next() {

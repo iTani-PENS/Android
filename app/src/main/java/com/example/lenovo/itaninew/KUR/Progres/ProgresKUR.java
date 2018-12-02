@@ -1,33 +1,42 @@
-package com.example.lenovo.itaninew.Komoditas;
+package com.example.lenovo.itaninew.KUR.Progres;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import com.example.lenovo.itaninew.KUR.OpsiKUR;
+import com.example.lenovo.itaninew.KUR.Proses.ProsesDataKUR;
+import com.example.lenovo.itaninew.Komoditas.Provinsi;
 import com.example.lenovo.itaninew.R;
 
-public class Provinsi extends AppCompatActivity {
+public class ProgresKUR extends AppCompatActivity {
 
-    ListView lvprovinsi;
-    String provinsi[] = {"Jawa Timur", "Jawa Tengah", "Jawa Barat", "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Aceh"};
+    ArrayAdapter<String> arrayAdapter;
+    EditText et_cari;
+    ListView lvpetani;
+    String petani[] = {"Toni", "Anton", "Yatno", "Rahma", "Andi"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.itani_komoditas_provinsi);
+        setContentView(R.layout.itani_kur_progres);
 
-        lvprovinsi = (ListView)findViewById(R.id.lv_provinsi);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.itani_komoditas_listview, R.id.textView, provinsi);
-        lvprovinsi.setAdapter(arrayAdapter);
-        justifyListViewHeightBasedOnChildren(lvprovinsi);
+        lvpetani = (ListView)findViewById(R.id.lv_petani);
+        arrayAdapter = new ArrayAdapter<String>(this, R.layout.itani_komoditas_listview, R.id.textView, petani);
+        lvpetani.setAdapter(arrayAdapter);
+        justifyListViewHeightBasedOnChildren(lvpetani);
 
-        lvprovinsi.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvpetani.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 next();
@@ -41,16 +50,33 @@ public class Provinsi extends AppCompatActivity {
                 back();
             }
         });
-    }
 
-    public void back(){
-        Intent back = new Intent(this, Komoditas.class);
-        startActivity(back);
+        et_cari = (EditText) findViewById(R.id.et_cari);
+        et_cari.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                ProgresKUR.this.arrayAdapter.getFilter().filter(s);
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
     }
 
     public void next() {
-        Intent intent = new Intent(this, Kabupaten.class);
+        Intent intent = new Intent(this, FormProgres.class);
         startActivity(intent);
+    }
+
+    public void back(){
+        Intent back = new Intent(this, OpsiKUR.class);
+        startActivity(back);
     }
 
     public void justifyListViewHeightBasedOnChildren (ListView listView) {

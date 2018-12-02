@@ -1,10 +1,11 @@
-package com.example.lenovo.itaninew.KUR;
+package com.example.lenovo.itaninew.KUR.Form;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
@@ -39,6 +40,18 @@ public class FormKUR2 extends AppCompatActivity {
             }
         });
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+    }
+
+    public void back(){
+        Intent back = new Intent(this, FormKUR.class);
+        startActivity(back);
     }
 
     public void next(){

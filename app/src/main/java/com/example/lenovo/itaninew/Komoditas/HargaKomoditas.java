@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.lenovo.itaninew.Home;
@@ -46,6 +47,19 @@ public class HargaKomoditas extends AppCompatActivity {
                 done();
             }
         });
+
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+    }
+
+    public void back(){
+        Intent back = new Intent(this, Kabupaten.class);
+        startActivity(back);
     }
 
     public void done() {

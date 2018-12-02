@@ -44,7 +44,7 @@
         android:maxLines="3"
         android:text="Dapatkan informasi harga pasar komoditas pertanian anda dan dapatkan modal usaha hanya dengan menggunakan smartphone anda."
         android:textColor="#FFF"
-        android:textSize="13dp" />
+        android:textSize="16dp" />
 
 
     <LinearLayout

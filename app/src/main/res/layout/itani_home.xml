@@ -143,7 +143,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="KUR"
-                                    android:textColor="@color/text"
+                                    android:textColor="@color/colorPrimary"
                                     android:textSize="25dp" />
 
 
@@ -200,7 +200,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="Komoditas"
-                                    android:textColor="@color/text"
+                                    android:textColor="@color/colorPrimary"
                                     android:textSize="25dp" />
 
                             </LinearLayout>

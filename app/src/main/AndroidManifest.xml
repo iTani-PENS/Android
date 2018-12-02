@@ -20,25 +20,29 @@
         </activity>
         <activity android:name=".Daftar" />
         <activity android:name=".Login" />
-        <activity android:name=".Home">
-
-        </activity>
-        <activity android:name=".EditProfil"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Profil.EditProfil" />
         <activity android:name=".Board.Boarding" />
-        <activity android:name=".Support" />
-        <activity android:name=".KUR.FormKUR" />
-        <activity android:name=".KUR.FormKUR2" />
+        <activity android:name=".KUR.Form.FormKUR" />
+        <activity android:name=".KUR.Form.FormKUR2" />
         <activity android:name=".Komoditas.Komoditas" />
         <activity android:name=".Komoditas.Provinsi" />
         <activity android:name=".Komoditas.Kabupaten" />
-        <activity android:name=".Komoditas.HargaKomoditas"></activity>
-        <activity android:name=".KUR.FormKUR3" />
-        <activity android:name=".KUR.FormKUR4" />
-        <activity android:name=".KUR.FormKUR5" />
-        <activity android:name=".KUR.Persyaratan1"></activity>
-        <activity android:name=".KUR.Persyaratan2"></activity>
-        <activity android:name=".KUR.Persyaratan3" />
-        <activity android:name=".KUR.OpsiKUR"></activity>
+        <activity android:name=".Komoditas.HargaKomoditas" />
+        <activity android:name=".KUR.Form.FormKUR3" />
+        <activity android:name=".KUR.Form.FormKUR4" />
+        <activity android:name=".KUR.Form.FormKUR5" />
+        <activity android:name=".KUR.Form.Persyaratan1" />
+        <activity android:name=".KUR.Form.Persyaratan2" />
+        <activity android:name=".KUR.Form.Persyaratan3" />
+        <activity android:name=".KUR.OpsiKUR" />
+        <activity android:name=".KUR.Form.ProsesKUR" />
+        <activity android:name=".KUR.Form.PengajuanBaru" />
+        <activity android:name=".KUR.Proses.ProsesDataKUR" />
+        <activity android:name=".KUR.Progres.ProgresKUR" />
+        <activity android:name=".Profil.EditGambar" />
+        <activity android:name=".KUR.Progres.FormProgres" />
+        <activity android:name=".KUR.Proses.DetilDataPetani"></activity>
     </application>
 
 </manifest>

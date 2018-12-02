@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KUR.FormKUR2">
+    tools:context=".KUR.Form.FormKUR2">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -24,7 +24,7 @@
 
 
         <ImageView
-
+            android:id="@+id/back"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="left"
@@ -148,6 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14dp"
+                        android:hint="Max Permohonan 25.000.000"
                         android:background="#00000000"
                         android:padding="12dp"
                         android:inputType="text"

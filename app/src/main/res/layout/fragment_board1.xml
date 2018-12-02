@@ -37,7 +37,7 @@
             android:maxLines="3"
             android:text="Memudahkan anda dalam pengajuan Kredit Usaha Rakyat, tanpa harus datang dan mengantri di Bank penyedia."
             android:textColor="#FFF"
-            android:textSize="13dp" />
+            android:textSize="16dp" />
 
     </RelativeLayout>
     

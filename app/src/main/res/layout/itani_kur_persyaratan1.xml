@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KUR.Persyaratan1">
+    tools:context=".KUR.Form.Persyaratan1">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -24,7 +24,7 @@
 
 
         <ImageView
-
+            android:id="@+id/back"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="left"
@@ -59,13 +59,14 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:paddingBottom="5dp"
                 android:background="@drawable/bg_keterangan"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
-                    android:text="Syarat Umum"
+                    android:text="SYARAT UMUM PEMOHON PERORANGAN KUR MIKRO BNI "
                     android:gravity="center"
                     android:textSize="16dp"
                     android:textColor="#FFF"
@@ -113,6 +114,18 @@
                     android:paddingLeft="30dp"
                     android:paddingRight="10dp"
                     />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Individu/perseorangan atau Badan usaha perorangan : minimal Surat Ijin Usaha Mikro dan Kecil (IUMK) yang diterbitkan Pemerintah Daerah dan/atau surat keterangan usaha dari Kelurahan setempat atau surat ijin lainnya."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="10dp"
+                    />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -123,16 +136,142 @@
                     android:paddingLeft="30dp"
                     android:paddingRight="10dp"
                     />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="c. "
+                    android:text="Badan usaha diluar butir a di atas mengacu ketentuan BNI."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3. Kualitas Kredit Bank (jika ada) :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lancar."
                     android:gravity="left"
                     android:textSize="16dp"
                     android:textColor="#000"
                     android:paddingLeft="30dp"
                     android:paddingRight="10dp"
-                    android:paddingBottom="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4. Pengalaman Usaha :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Minimal 6 (enam) bulan."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="5. Usia Pemohon (khusus untuk pemohon individu / perserorangan) :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Minimal 21 (dua puluh satu) tahun atau belum berusia 21 (dua puluh satu) tahun tetapi sudah menikah."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="6. Hubungan dengan Bank :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tidak sedang menerima kredit produktif dari Perbankan dan/atau tidak sedang menerima kredit program dari Pemerintah (kecuali KUR)."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="7. NPWP :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tidak disyaratkan."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="8. Jaminan :"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tidak diwajibkan jaminan tambahan."
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:textColor="#000"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
                     />
             </LinearLayout>
 

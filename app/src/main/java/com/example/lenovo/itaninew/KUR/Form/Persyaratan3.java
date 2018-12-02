@@ -1,4 +1,4 @@
-package com.example.lenovo.itaninew.KUR;
+package com.example.lenovo.itaninew.KUR.Form;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.example.lenovo.itaninew.Home;
 import com.example.lenovo.itaninew.R;
 
 public class Persyaratan3 extends AppCompatActivity {
@@ -61,10 +61,22 @@ public class Persyaratan3 extends AppCompatActivity {
             }
         });
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+    }
+
+    public void back(){
+        Intent back = new Intent(this, FormKUR5.class);
+        startActivity(back);
     }
 
     public void next(){
-        Intent next = new Intent(this, Home.class);
+        Intent next = new Intent(this, ProsesKUR.class);
         startActivity(next);
     }
 }

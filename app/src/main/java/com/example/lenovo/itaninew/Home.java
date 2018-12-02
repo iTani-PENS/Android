@@ -1,7 +1,6 @@
 package com.example.lenovo.itaninew;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -13,10 +12,9 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.Toast;
 
-import com.example.lenovo.itaninew.KUR.FormKUR;
 import com.example.lenovo.itaninew.KUR.OpsiKUR;
-import com.example.lenovo.itaninew.KUR.Persyaratan1;
 import com.example.lenovo.itaninew.Komoditas.Komoditas;
+import com.example.lenovo.itaninew.Profil.EditProfil;
 
 public class Home extends AppCompatActivity {
 

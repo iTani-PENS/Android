@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KUR.FormKUR3">
+    tools:context=".KUR.Form.FormKUR3">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -24,7 +24,7 @@
 
 
         <ImageView
-
+            android:id="@+id/back"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="left"
@@ -374,36 +374,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Sektor Ekonomi"
+                    android:text="Sektor Ekonomi : Pertanian"
                     android:gravity="left"
                     android:textSize="14dp"
                     android:textColor="#000"
                     android:paddingTop="5dp"
                     android:paddingLeft="20dp"
                     />
-
-                <LinearLayout
-
-                    android:layout_gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/bg_detailbox1"
-                    android:paddingTop="2.5dp"
-                    android:paddingBottom="2.5dp"
-                    android:layout_marginBottom="10dp">
-
-                    <Spinner
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/combo_sektor_ekonomi"
-                        android:textSize="12dp"
-                        android:inputType="text"
-                        android:textColor="@color/text"
-                        android:lines="1" />
-                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"

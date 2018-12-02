@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Komoditas.Kabupaten">
+    tools:context=".KUR.Proses.ProsesDataKUR">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginRight="35dp"
-            android:text="KOMODITAS"
+            android:text="KUR"
             android:textColor="@color/white"
             android:textSize="16dp" />
 
@@ -46,43 +46,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <LinearLayout
                 android:id="@+id/idcari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 >
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="Kabupaten"
-                    android:textSize="16dp"/>
 
                 <LinearLayout
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@drawable/bg_detailbox1"
                     android:paddingTop="2.5dp"
                     android:paddingBottom="2.5dp"
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:id="@+id/et_cari"
                         android:gravity="left"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Kabupaten . . ."
+                        android:hint="Nama Petani . . ."
                         android:textSize="14dp"
                         android:textColorHint="@color/sub_text"
                         android:background="#00000000"
@@ -95,16 +89,36 @@
 
             </LinearLayout>
 
-            <ListView
-                android:layout_below="@id/idcari"
-                android:id="@+id/lv_kabupaten"
+            <LinearLayout
+                android:id="@+id/keterangan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/background"
-                android:scrollbars="none"
-                />
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_keterangan"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_signup"
+                    android:text="List Pengajuan"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textColor="#FFF"
+                    android:padding="10dp"
+                    />
+
+                <ListView
+                    android:id="@+id/lv_petani"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background"
+                    android:scrollbars="none"
+                    />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,12 +24,14 @@
         app:contentInsetRight="16dp"
         app:contentInsetStart="16dp">
 
-        <ImageView
 
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left"
             android:src="@drawable/back" />
+
 
         <TextView
             android:layout_width="match_parent"
@@ -38,37 +40,35 @@
             android:layout_marginRight="35dp"
             android:text="KUR"
             android:textColor="@color/white"
-            android:textSize="18dp" />
+            android:textSize="16dp" />
 
     </android.support.v7.widget.Toolbar>
 
     <ScrollView
         android:layout_below="@+id/toolbar"
+        android:scrollbars="none"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true">
+        >
 
         <LinearLayout
-            android:id="@+id/linear"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/toolbar"
+            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp"
-            android:layout_margin="30dp"
-            android:layout_gravity="center_vertical">
+            android:padding="10dp">
 
             <LinearLayout
                 android:id="@+id/kur"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/bg_signup"
+                android:background="@drawable/stroke_menu"
                 android:paddingTop="2.5dp"
                 android:paddingBottom="2.5dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -84,7 +84,39 @@
                     android:layout_height="wrap_content"
                     android:text="Pengajuan KUR"
                     android:textSize="20dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="12dp"
+                    android:lines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/proses"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/stroke_menu"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/icon_proses"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data Diproses"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimary"
                     android:padding="12dp"
                     android:lines="1" />
 
@@ -97,10 +129,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/bg_signup"
+                android:background="@drawable/stroke_menu"
                 android:paddingTop="2.5dp"
                 android:paddingBottom="2.5dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="5dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -116,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:text="Laporan Progress"
                     android:textSize="20dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
                     android:padding="12dp"
                     android:lines="1" />
 
@@ -126,4 +158,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+</RelativeLayout>

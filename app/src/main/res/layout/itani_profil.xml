@@ -25,7 +25,7 @@
 
 
         <ImageView
-
+            android:id="@+id/back"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="left"
@@ -93,6 +93,7 @@
 
 
                     <TextView
+                        android:id="@+id/edit_gambar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16dp"
@@ -108,6 +109,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Nama Lengkap"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -139,7 +142,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
-                android:text="Nama LPanggilan"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
+                android:text="Nama Panggilan"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -172,6 +177,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Jenis Kelamin"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -199,10 +206,47 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tempat/Tanggal Lahir"
+                android:text="Tempat Lahir"
                 android:gravity="left"
-                android:textSize="16dp"
+                android:textSize="14dp"
+                android:textColor="@color/text"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_detailbox1"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/et_tempat"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:background="#00000000"
+                    android:padding="12dp"
+                    android:inputType="text"
+                    android:textColor="@color/text"
+                    android:lines="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tanggal Lahir"
+                android:gravity="left"
+                android:textSize="14dp"
+                android:textColor="@color/text"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -210,55 +254,39 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="5dp"
-                    android:background="@drawable/bg_detailbox1"
-                    android:paddingTop="2.5dp"
-                    android:paddingBottom="2.5dp"
-                    android:layout_marginBottom="10dp">
-
-                    <EditText
-                        android:id="@+id/et_tempat"
-                        android:gravity="left"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="Tempat"
-                        android:textSize="14dp"
-                        android:background="#00000000"
-                        android:padding="12dp"
-                        android:inputType="text"
-                        android:textColor="@color/text"
-                        android:lines="1" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="20dp"
                     android:background="@drawable/bg_detailbox1"
-                    android:paddingTop="2.5dp"
                     android:paddingBottom="2.5dp"
-                    android:layout_marginBottom="10dp">
+                    android:paddingTop="2.5dp">
 
                     <EditText
                         android:id="@+id/et_tgl"
-                        android:gravity="left"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Thn-Bln-Tgl"
-                        android:textSize="14dp"
                         android:background="#00000000"
-                        android:padding="12dp"
+                        android:gravity="left"
+                        android:enabled="false"
+                        android:hint="Thn-Bln-Tgl"
                         android:inputType="text"
+                        android:lines="1"
+                        android:padding="12dp"
                         android:textColor="@color/text"
-                        android:lines="1" />
+                        android:textSize="14dp" />
                 </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_calendar_today_black_18dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="setDate"/>
 
             </LinearLayout>
 
@@ -267,6 +295,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Alamat"
+                android:textColor="@color/text"
+                android:paddingLeft="10dp"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -299,6 +329,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Provinsi"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -328,6 +360,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Kota/Kabupaten"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -357,6 +391,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="Kecamatan"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout
@@ -386,6 +422,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:text="No. Telephon"
+                android:paddingLeft="10dp"
+                android:textColor="@color/text"
                 android:layout_marginTop="10dp"/>
 
             <LinearLayout

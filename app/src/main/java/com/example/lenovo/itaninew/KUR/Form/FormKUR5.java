@@ -1,10 +1,11 @@
-package com.example.lenovo.itaninew.KUR;
+package com.example.lenovo.itaninew.KUR.Form;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
@@ -17,6 +18,7 @@ public class FormKUR5 extends AppCompatActivity {
     String kec[]={"Sidayu","Dukun", "Panceng","Ujung Pangkah"};
     String bentukjaminan[] ={"KAS","Emas"};
     String status_pemilik[] ={"Akta Jual Beli"};
+    String yesno[]={"Ya","Tidak"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,11 @@ public class FormKUR5 extends AppCompatActivity {
         Spinner combo_provinsi = (Spinner) findViewById(R.id.combo_provinsi);
         Spinner combo_kota = (Spinner) findViewById(R.id.combo_kota);
         Spinner combo_kecamatan = (Spinner) findViewById(R.id.combo_kecamatan);
+        Spinner combo_angsuran = (Spinner) findViewById(R.id.combo_angsuran);
+
+        ArrayAdapter<String> AdapterListYesNo = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,yesno);
+        AdapterListYesNo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        combo_angsuran.setAdapter(AdapterListYesNo);
 
         ArrayAdapter<String> AdapterListBentukJaminan = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,bentukjaminan);
         AdapterListBentukJaminan.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -58,6 +65,18 @@ public class FormKUR5 extends AppCompatActivity {
             }
         });
 
+        ImageView back = (ImageView) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+    }
+
+    public void back(){
+        Intent back = new Intent(this, FormKUR4.class);
+        startActivity(back);
     }
 
     public void next(){
