@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/bgedittext"
                 android:hint="No.Tlp"
+                android:inputType="phone"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:typeface="serif"
                 android:textSize="16dp"/>

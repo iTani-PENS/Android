@@ -42,7 +42,10 @@
         <activity android:name=".KUR.Progres.ProgresKUR" />
         <activity android:name=".Profil.EditGambar" />
         <activity android:name=".KUR.Progres.FormProgres" />
-        <activity android:name=".KUR.Proses.DetilDataPetani"></activity>
+        <activity android:name=".KUR.Proses.DetilDataPetani" />
+        <activity android:name=".ProfilPetani" />
+        <activity android:name=".DataPetani" />
+        <activity android:name=".VerifikasiKode"></activity>
     </application>
 
 </manifest>
