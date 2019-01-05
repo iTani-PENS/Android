@@ -58,7 +58,7 @@ public class HargaKomoditas extends AppCompatActivity {
     }
 
     public void back(){
-        Intent back = new Intent(this, Kabupaten.class);
+        Intent back = new Intent(this, Komoditas.class);
         startActivity(back);
     }
 

@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -63,6 +65,8 @@
                 android:background="@drawable/bg_keterangan"
                 android:orientation="vertical">
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
@@ -73,6 +77,8 @@
                     android:padding="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="1. Kriteria Pemohon :"
@@ -84,6 +90,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Individu/perseorangan atau Badan Usaha[dhi. Usaha Mikro, Kecil, dan Menengah. Anggota Keluarga dari karyawan/karyawati yang berpenghasilan tetap atau bekerja sebagai Tenaga Kerja Indonesia(TKI). TKI yang purna dari bekerja di luar negeri. Dan pekerja yang terkena Pemutusan Hubungan Kerja] yang melakukan usaha produktif dan layak namun belum memiliki agunan tambahan atau agunan tambahan belum cukup."
@@ -94,6 +102,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="2. Perijinan Perusahaan :"
@@ -105,6 +115,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="a. "
@@ -116,6 +128,8 @@
                     />
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Individu/perseorangan atau Badan usaha perorangan : minimal Surat Ijin Usaha Mikro dan Kecil (IUMK) yang diterbitkan Pemerintah Daerah dan/atau surat keterangan usaha dari Kelurahan setempat atau surat ijin lainnya."
@@ -127,6 +141,8 @@
                     />
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="b. "
@@ -138,6 +154,8 @@
                     />
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Badan usaha diluar butir a di atas mengacu ketentuan BNI."
@@ -148,6 +166,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="3. Kualitas Kredit Bank (jika ada) :"
@@ -159,6 +179,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Lancar."
@@ -169,6 +191,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="4. Pengalaman Usaha :"
@@ -180,6 +204,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Minimal 6 (enam) bulan."
@@ -190,6 +216,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="5. Usia Pemohon (khusus untuk pemohon individu / perserorangan) :"
@@ -201,6 +229,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Minimal 21 (dua puluh satu) tahun atau belum berusia 21 (dua puluh satu) tahun tetapi sudah menikah."
@@ -211,6 +241,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="6. Hubungan dengan Bank :"
@@ -222,6 +254,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tidak sedang menerima kredit produktif dari Perbankan dan/atau tidak sedang menerima kredit program dari Pemerintah (kecuali KUR)."
@@ -232,6 +266,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="7. NPWP :"
@@ -243,6 +279,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tidak disyaratkan."
@@ -253,6 +291,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="8. Jaminan :"
@@ -264,6 +304,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tidak diwajibkan jaminan tambahan."
@@ -294,6 +336,8 @@
                     android:layout_marginBottom="30dp">
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

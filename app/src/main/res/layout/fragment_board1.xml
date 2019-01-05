@@ -14,7 +14,7 @@
             android:id="@+id/icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="125dp"
             android:gravity="center">
 
             <ImageView
@@ -28,10 +28,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/icon"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginBottom="55dp"
             android:layout_marginLeft="36dp"
             android:layout_marginRight="36dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:gravity="center"
             android:lineSpacingExtra="4dp"
             android:maxLines="3"

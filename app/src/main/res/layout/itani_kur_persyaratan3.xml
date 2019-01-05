@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -62,6 +64,8 @@
                 android:background="@drawable/bg_keterangan"
                 android:orientation="vertical">
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
@@ -72,6 +76,8 @@
                     android:padding="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="1. Semua data yang disampaikan kepada BNI telah lengkap dan benar"
@@ -83,6 +89,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="2. BNI telah memberikan informasi yang jelas dan memadai kepada Pemohon perihal prosedur, syarat dan ketentuan KUR MIKRO BNI"
@@ -93,6 +101,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="3.	Pemohon telah membaca dan memahami ketentuan KUR MIKRO BNI dan setuju untuk terikat dan tunduk pada ketentuan KUR MIKRO BNI"
@@ -104,6 +114,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="4. Pemohon memahami maksimum kredit yang diajukan Pemohon tidak Mengikat dan BNI memiliki kewenangan penuh untuk menetapkan maksimum kredit yang diberikan berdasarkan hasil analisa BNI"
@@ -114,6 +126,8 @@
                     android:paddingRight="10dp"
                     />
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="5.	BNI berhak menolak permhonan KUR MIKRO BNI yang diajukan Pemohon apabila Pemohon tidak memenuhi persyaratan untuk memperoleh Fasilitas KUR MIKRO BNI"
@@ -132,20 +146,26 @@
                 android:orientation="vertical">
 
                 <CheckBox
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:id="@+id/cb_check1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
                     android:layout_gravity="center"
+                    android:textSize="14dp"
                     android:padding="20dp"
                     android:text="Dengan ini Saya menyatakan bahwa segala informasi dan data yang Saya cantumkan/tuliskan dalam E-Form Permohonan Kredit ini adalah benar dan sesuai dengan infomasi dan data yang sebenarnya dan Saya setuju untuk memberikan informasi dan data tersebut kepada PT Bank Negara Indonesia (Persero) Tbk." />
 
                 <CheckBox
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:id="@+id/cb_check2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
                     android:layout_gravity="center"
+                    android:textSize="14dp"
                     android:padding="20dp"
                     android:text="	Dengan ini Saya mengajukan permohonan kredit sesuai dengan informasi dan data yang telah saya berikan kepada PT Bank Negara Indonesia (Persero) Tbk. sebagai mana dimaksud dalam E-Form Permohonan Kredit ini untuk dapat di proses dan ditindaklanjuti oleh PT Bank Negara Indonesia (Persero) Tbk sesuai dengan ketentuan perkreditan yang berlaku." />
 
@@ -162,6 +182,8 @@
                     android:layout_marginBottom="30dp">
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

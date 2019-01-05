@@ -74,6 +74,8 @@
                 </FrameLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -140,6 +142,8 @@
                                 android:orientation="vertical">
 
                                 <TextView
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:typeface="serif"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="KUR"
@@ -197,6 +201,8 @@
                                 android:orientation="vertical">
 
                                 <TextView
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:typeface="serif"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:text="Komoditas"

@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -71,6 +73,8 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/bg_signup"
@@ -82,6 +86,8 @@
                         />
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah Anda Sudah Memiliki Dokummen APIK?"
@@ -106,6 +112,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_apik"
@@ -122,6 +130,8 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="fill_parent"
                             android:layout_weight="1"
                             android:layout_gravity="left|center_vertical"
@@ -160,6 +170,8 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/bg_signup"
@@ -173,6 +185,8 @@
                         />
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Penghasilan anda Sebulan?"
@@ -198,6 +212,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_hasilperbulan"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -211,6 +227,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Biaya yang diperlukan untuk Belanja Bahan Baku dan Pendukungnya per Bulan ?"
@@ -236,6 +254,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_belanjaperbulan"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -249,6 +269,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Biaya Operasional (Gaji Karyawan, Listrik, Air dan Telepon) per bulan ?"
@@ -273,6 +295,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_biayaopersional"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -286,6 +310,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah Tempat Usaha Anda Menyewa ?"
@@ -311,6 +337,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_yesno"
@@ -328,6 +356,8 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Biaya Sewa Perbulan"
@@ -353,6 +383,8 @@
                             android:layout_marginBottom="10dp">
 
                             <EditText
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:id="@+id/et_biayasewa"
                                 android:gravity="left"
                                 android:layout_width="match_parent"
@@ -368,6 +400,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah anda mempunyai tanggungan yang dibiayai (anak sekolah) ?"
@@ -393,6 +427,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_yesno2"
@@ -409,6 +445,8 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Biaya yang ditanggung"
@@ -434,6 +472,8 @@
                             android:layout_marginBottom="10dp">
 
                             <EditText
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:id="@+id/et_tanggungananak"
                                 android:gravity="left"
                                 android:layout_width="match_parent"
@@ -449,6 +489,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah Anda memiliki pendapatan selain dari usaha anda saat ini ?"
@@ -474,6 +516,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_yesno3"
@@ -490,6 +534,8 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Pendapatan selain usaha"
@@ -515,6 +561,8 @@
                             android:layout_marginBottom="10dp">
 
                             <EditText
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:id="@+id/et_pendapatan_lain"
                                 android:gravity="left"
                                 android:layout_width="match_parent"
@@ -543,6 +591,8 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/bg_signup"
@@ -556,6 +606,8 @@
                         />
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Saldo Kas Saat Ini (Saldo Tabungan, Uang Tunai, Deposito, dll) ?"
@@ -581,6 +633,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_saldo"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -594,6 +648,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Tagihan / Piutang Anda kepada pihak ke-3 Saat Ini ?"
@@ -619,6 +675,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_tagihan"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -632,6 +690,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Persediaan Bahan Baku Saat Ini ?"
@@ -656,6 +716,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_bahanbaku"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -669,6 +731,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah Anda memiliki harta tetap (tanah / bangunan) atau bergerak (kendaraan)) ?"
@@ -694,6 +758,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_yesno4"
@@ -711,6 +777,8 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Harga beli tanah/bangunan atau kendaraan"
@@ -736,6 +804,8 @@
                             android:layout_marginBottom="10dp">
 
                             <EditText
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:id="@+id/et_hartatetap"
                                 android:gravity="left"
                                 android:layout_width="match_parent"
@@ -751,6 +821,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Hutang ke Pemasok Bahan Baku ?"
@@ -776,6 +848,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_hutang_bahanbaku"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -789,6 +863,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Apakah Anda memiliki Hutang Bank Lainnya (KPR / Kartu Kredit / Leasing) ?"
@@ -814,6 +890,8 @@
                         android:layout_marginBottom="10dp">
 
                         <Spinner
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/combo_yesno5"
@@ -830,6 +908,8 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Berapa sisa hutang anda"
@@ -855,6 +935,8 @@
                             android:layout_marginBottom="10dp">
 
                             <EditText
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:id="@+id/et_hutang"
                                 android:gravity="left"
                                 android:layout_width="match_parent"
@@ -870,6 +952,8 @@
                     </LinearLayout>
 
                     <TextView
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Berapakah Modal Awal Usaha Anda ?"
@@ -895,6 +979,8 @@
                         android:layout_marginBottom="10dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_modal_awal"
                             android:gravity="left"
                             android:layout_width="match_parent"
@@ -922,6 +1008,8 @@
                 android:layout_marginBottom="30dp">
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

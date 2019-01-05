@@ -31,6 +31,8 @@
             android:src="@drawable/back" />
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -90,6 +92,8 @@
                             android:layout_gravity="center_vertical">
 
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -98,6 +102,8 @@
                                 android:textSize="14dp"
                                 android:letterSpacing="0.025"/>
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -108,6 +114,8 @@
                                 android:layout_marginBottom="5dp"/>
 
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -116,6 +124,8 @@
                                 android:textSize="14dp"
                                 android:letterSpacing="0.025"/>
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -134,6 +144,8 @@
                             android:layout_gravity="top">
 
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -143,6 +155,8 @@
                                 android:letterSpacing="0.025"/>
 
                             <TextView
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:typeface="serif"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="left"
@@ -189,6 +203,8 @@
                         android:layout_gravity="center_vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -198,6 +214,8 @@
                             android:letterSpacing="0.025"
                             android:layout_marginBottom="5dp"/>
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -232,6 +250,8 @@
                         android:layout_gravity="center_vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -241,6 +261,8 @@
                             android:letterSpacing="0.025"
                             android:layout_marginBottom="5dp"/>
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -274,6 +296,8 @@
                         android:layout_gravity="center_vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -283,6 +307,8 @@
                             android:letterSpacing="0.025"
                             android:layout_marginBottom="5dp"/>
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -316,6 +342,8 @@
                         android:layout_gravity="center_vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -325,6 +353,8 @@
                             android:letterSpacing="0.025"
                             android:layout_marginBottom="5dp"/>
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"

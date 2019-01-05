@@ -15,8 +15,6 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.example.lenovo.itaninew.KUR.OpsiKUR;
-import com.example.lenovo.itaninew.KUR.Proses.ProsesDataKUR;
-import com.example.lenovo.itaninew.Komoditas.Provinsi;
 import com.example.lenovo.itaninew.R;
 
 public class ProgresKUR extends AppCompatActivity {

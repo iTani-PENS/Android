@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -63,6 +65,8 @@
                android:background="@drawable/bg_keterangan"
                android:orientation="vertical">
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:background="@drawable/bg_signup"
@@ -73,6 +77,8 @@
                    android:padding="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="1. Maksimum Permohonan :"
@@ -84,6 +90,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Maksimum Rp. 25.000.000 (dua puluh lima juta rupiah)."
@@ -94,6 +102,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="2. Jenis Kredit :"
@@ -105,6 +115,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Kredit Modal Kerja atau Kredit Investasi."
@@ -115,6 +127,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="3. Tujuan Kredit :"
@@ -126,6 +140,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Untuk usaha produktif di sektor usaha pertanian, perikanan, industri pengolahan, perdagangan serta jasa-jasa yang diatur dalam ketentuan Pemerintah terkait KUR Mikro."
@@ -136,6 +152,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="4. Suku Bangsa :"
@@ -147,6 +165,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Kredit Modal Kerja dengan Angsuran dan Kredit Investasi : maksimal sebesar 9% (sembilan persen) efektif anuitas per tahun."
@@ -157,6 +177,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="5. Jangka Waktu :"
@@ -169,6 +191,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="a. "
@@ -180,6 +204,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Kredit Modal Kerja Maksimal maksimal 3 (tiga) tahun."
@@ -191,6 +217,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="b. "
@@ -202,6 +230,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Kredit Investasi maksimal 5 (lima) tahun."
@@ -212,6 +242,8 @@
                    android:paddingRight="10dp"
                    />
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="6. Biaya - Biaya :"
@@ -224,6 +256,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="a. Propisi dan Service Fee :"
@@ -235,6 +269,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Tidak dikenakan."
@@ -246,6 +282,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="b. Biaya Administrasi :"
@@ -257,6 +295,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="Maksimal Rp. 150.000 (seratus lima puluh ribu rupiah)"
@@ -268,6 +308,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="c. Denda Tunggakan"
@@ -279,6 +321,8 @@
                    />
 
                <TextView
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:text="5% (lima persen) per tahun dari saldo yang tertunggak."
@@ -297,12 +341,15 @@
                android:orientation="vertical">
 
                <CheckBox
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:typeface="serif"
                    android:id="@+id/setuju"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:checked="false"
                    android:layout_gravity="center"
                    android:padding="20dp"
+                   android:textSize="16dp"
                    android:text="Saya Menyetujui Persyaratan diatas" />
 
                <LinearLayout
@@ -318,6 +365,8 @@
                    android:layout_marginBottom="30dp">
 
                    <TextView
+                       android:textAppearance="?android:attr/textAppearanceLarge"
+                       android:typeface="serif"
                        android:gravity="center"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"

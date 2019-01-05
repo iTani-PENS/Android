@@ -5,6 +5,8 @@
     android:orientation="vertical">
 
     <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif"
         android:id="@+id/textView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

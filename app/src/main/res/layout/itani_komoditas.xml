@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -58,16 +60,105 @@
                 >
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_marginBottom="10dp"
+                    android:textColor="@color/text"
+                    android:text="Dapatkan pembaharuan informasi harga komoditas di suatu daerah"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/sub_text"
+                    android:text="Provinsi"
+                    android:textSize="16dp"/>
+
+                <LinearLayout
+
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_detailbox1"
+                    android:paddingTop="2.5dp"
+                    android:paddingBottom="2.5dp">
+
+                    <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/combo_provinsi"
+                        android:textSize="14dp"
+                        android:inputType="text"
+                        android:textColor="@color/text"
+                        android:lines="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/sub_text"
+                    android:text="Kota/Kabupaten"
+                    android:textSize="16dp"/>
+
+                <LinearLayout
+
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_detailbox1"
+                    android:paddingTop="2.5dp"
+                    android:paddingBottom="2.5dp">
+
+                    <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/combo_kabupaten"
+                        android:textSize="14dp"
+                        android:inputType="text"
+                        android:textColor="@color/text"
+                        android:lines="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/sub_text"
                     android:text="Komoditas"
                     android:textSize="16dp"/>
 
                 <LinearLayout
+
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -78,33 +169,46 @@
                     android:paddingBottom="2.5dp"
                     android:layout_marginBottom="10dp">
 
-                    <EditText
-                        android:gravity="left"
+                    <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Komoditas . . ."
+                        android:id="@+id/combo_komoditas"
                         android:textSize="14dp"
-                        android:textColorHint="@color/sub_text"
-                        android:background="#00000000"
-                        android:padding="8dp"
                         android:inputType="text"
                         android:textColor="@color/text"
                         android:lines="1" />
-
                 </LinearLayout>
 
             </LinearLayout>
 
-            <ListView
-                android:layout_below="@id/idcari"
-                android:id="@+id/lv_komoditas"
+            <LinearLayout
+                android:id="@+id/selanjutnya"
+                android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@color/background"
-                android:scrollbars="none"
-                />
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_signup"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selanjutnya"
+                    android:textSize="14dp"
+                    android:textColor="@color/white"
+                    android:padding="12dp"
+                    android:lines="1" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

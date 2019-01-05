@@ -1,8 +1,6 @@
 package com.example.lenovo.itaninew.Board;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.lenovo.itaninew.Daftar;
+import com.example.lenovo.itaninew.SignUp.SignUp;
 import com.example.lenovo.itaninew.R;
 
 
@@ -34,7 +32,7 @@ public class Board3 extends Fragment {
     }
 
     public void getstart() {
-        Intent intent = new Intent(getActivity(), Daftar.class);
+        Intent intent = new Intent(getActivity(), SignUp.class);
         startActivity(intent);
     }
 

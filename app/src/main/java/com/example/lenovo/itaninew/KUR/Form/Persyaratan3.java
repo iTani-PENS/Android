@@ -21,7 +21,7 @@ public class Persyaratan3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.itani_kur_persyataan3);
+        setContentView(R.layout.itani_kur_persyaratan3);
 
         next = (LinearLayout) findViewById(R.id.simpan);
         next.setEnabled(false);

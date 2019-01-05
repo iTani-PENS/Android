@@ -26,6 +26,8 @@
             android:orientation="vertical">
 
             <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif"
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -35,6 +37,8 @@
                 android:textSize="24dp" />
 
             <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif"
                 android:id="@+id/sub_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,6 +53,8 @@
     </FrameLayout>
 
     <View
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_below="@+id/card"

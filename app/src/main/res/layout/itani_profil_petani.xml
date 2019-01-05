@@ -31,6 +31,8 @@
             android:src="@drawable/back" />
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -86,6 +88,8 @@
                         android:layout_gravity="center_vertical">
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -95,6 +99,8 @@
                             android:letterSpacing="0.025"/>
 
                         <TextView
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
@@ -127,12 +133,16 @@
                 >
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="NIK"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
@@ -143,12 +153,16 @@
                     android:layout_marginBottom="10dp"/>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="Jenis Kelamin"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
@@ -159,12 +173,16 @@
                     android:layout_marginBottom="10dp"/>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="Pendidikan Terakhir"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
@@ -175,12 +193,16 @@
                     android:layout_marginBottom="10dp"/>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="Alamat"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
@@ -190,12 +212,16 @@
                     android:text="Jl. Gelang Jaya B Rt.04 Rw.03"
                     android:layout_marginBottom="10dp"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="Lokasi Lahan"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
@@ -205,12 +231,16 @@
                     android:text="Jl. Gelang Jaya B Rt.04 Rw.03"
                     android:layout_marginBottom="10dp"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/sub_text"
                     android:textSize="16dp"
                     android:text="Luas Lahan"/>
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"

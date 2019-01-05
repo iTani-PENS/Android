@@ -18,16 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Daftar" />
-        <activity android:name=".Login" />
+        <activity android:name=".SignUp.SignUp" />
         <activity android:name=".Home" />
         <activity android:name=".Profil.EditProfil" />
         <activity android:name=".Board.Boarding" />
         <activity android:name=".KUR.Form.FormKUR" />
         <activity android:name=".KUR.Form.FormKUR2" />
         <activity android:name=".Komoditas.Komoditas" />
-        <activity android:name=".Komoditas.Provinsi" />
-        <activity android:name=".Komoditas.Kabupaten" />
         <activity android:name=".Komoditas.HargaKomoditas" />
         <activity android:name=".KUR.Form.FormKUR3" />
         <activity android:name=".KUR.Form.FormKUR4" />
@@ -45,7 +42,7 @@
         <activity android:name=".KUR.Proses.DetilDataPetani" />
         <activity android:name=".ProfilPetani" />
         <activity android:name=".DataPetani" />
-        <activity android:name=".VerifikasiKode"></activity>
+        <activity android:name=".Verification.VerificationCode"></activity>
     </application>
 
 </manifest>

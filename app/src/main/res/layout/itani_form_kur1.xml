@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -67,6 +69,8 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
@@ -78,6 +82,8 @@
                     />
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Nama Lengkap (Sesuai KTP)"
@@ -89,7 +95,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -102,6 +107,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_nama_lengkap"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -115,6 +122,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Nama Panggilan"
@@ -126,7 +135,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -139,6 +147,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_nama_panggilan"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -152,6 +162,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tempat Lahir"
@@ -174,6 +186,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_tempat"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -187,6 +201,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tanggal Lahir"
@@ -213,6 +229,8 @@
                         android:paddingTop="2.5dp">
 
                         <EditText
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:typeface="serif"
                             android:id="@+id/et_tgl"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -232,13 +250,15 @@
                         android:layout_width="match_parent"
                         android:layout_weight="4"
                         android:layout_gravity="center_vertical"
-                        android:src="@drawable/baseline_calendar_today_black_18dp"
+                        android:src="@drawable/icon_calendar"
                         android:layout_height="wrap_content"
                         android:onClick="setDate"/>
 
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Nomor KTP"
@@ -263,6 +283,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_no_ktp"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -276,6 +298,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Nomor NPWP"
@@ -287,7 +311,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -300,6 +323,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_no_npwp"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -313,6 +338,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Jenis Kelamin"
@@ -324,7 +351,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -337,6 +363,8 @@
                     android:layout_marginBottom="10dp">
 
                     <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/combo_jk"
@@ -347,6 +375,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Pendidikan Terakhir"
@@ -358,7 +388,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -371,6 +400,8 @@
                     android:layout_marginBottom="10dp">
 
                     <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/combo_pendidikan"
@@ -380,6 +411,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:text="Alamat"
@@ -391,7 +424,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -404,6 +436,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_alamat"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -417,6 +451,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Provinsi"
@@ -428,7 +464,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -441,6 +476,8 @@
                     android:layout_marginBottom="10dp">
 
                     <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/combo_provinsi"
@@ -451,6 +488,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Kabupaten/Kota"
@@ -462,7 +501,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -475,6 +513,8 @@
                     android:layout_marginBottom="10dp">
 
                     <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/combo_kota"
@@ -485,6 +525,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Kecamatan"
@@ -496,7 +538,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -509,6 +550,8 @@
                     android:layout_marginBottom="10dp">
 
                     <Spinner
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/combo_kecamatan"
@@ -519,6 +562,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Kodepos"
@@ -530,7 +575,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -543,6 +587,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_kodepos"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -556,6 +602,8 @@
                 </LinearLayout>
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Nomor Telephon"
@@ -567,7 +615,6 @@
                     />
 
                 <LinearLayout
-
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -580,6 +627,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_no_tlp"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -607,6 +656,8 @@
                 android:layout_marginBottom="30dp">
 
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

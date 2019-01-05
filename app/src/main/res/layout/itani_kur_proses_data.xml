@@ -32,6 +32,8 @@
 
 
         <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -72,6 +74,8 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="serif"
                         android:id="@+id/et_cari"
                         android:gravity="left"
                         android:layout_width="match_parent"
@@ -99,6 +103,8 @@
                 android:background="@drawable/bg_keterangan"
                 android:orientation="vertical">
                 <TextView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_signup"
@@ -110,6 +116,8 @@
                     />
 
                 <ListView
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:typeface="serif"
                     android:id="@+id/lv_petani"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
