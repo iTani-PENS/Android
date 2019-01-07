@@ -3,6 +3,7 @@
     package="com.example.lenovo.itaninew">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -43,6 +44,7 @@
         <activity android:name=".ProfilPetani" />
         <activity android:name=".DataPetani" />
         <activity android:name=".Verification.VerificationCode"></activity>
+        <activity android:name=".Login.LogIn"></activity>
     </application>
 
 </manifest>

@@ -66,10 +66,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:typeface="serif"
                 android:textColor="@color/text"
-                android:text="Masukkan 4 Digit Kode Verifikasi Yang Anda Terima"/>
+                android:text="Masukkan 6 Digit Kode Verifikasi Yang Anda Terima"/>
 
 
             <EditText
+                android:id="@+id/etKode"
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginRight="20dp"
@@ -86,8 +87,21 @@
                 android:textSize="20dp"/>
 
             <TextView
-                android:id="@+id/kirimUlang"
+                android:id="@+id/gantiNomor"
                 android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif"
+                android:textColor="@color/text"
+                android:text="Ganti Nomor Telpon ?"/>
+
+            <TextView
+                android:id="@+id/kirimUlang"
+                android:layout_marginTop="5dp"
                 android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

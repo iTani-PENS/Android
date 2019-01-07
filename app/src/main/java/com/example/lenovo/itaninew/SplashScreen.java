@@ -12,6 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import com.example.lenovo.itaninew.Board.Boarding;
+import com.example.lenovo.itaninew.Login.LogIn;
+import com.example.lenovo.itaninew.Storage.SharedPrefManager;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -35,6 +37,18 @@ public class SplashScreen extends AppCompatActivity {
         }, SPLASH_TIME_OUT);
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        SharedPrefManager sharedPrefManager;
+        sharedPrefManager = new SharedPrefManager(this);
+        if (sharedPrefManager.getSPSudahLogin()) {
+            startActivity(new Intent(SplashScreen.this, Home.class)
+                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+            finish();
+        }
+    }
     private void setAnimation() {
         ObjectAnimator scaleXAnimation = ObjectAnimator.ofFloat(findViewById(R.id.welcome_text), "scaleX", 5.0F, 1.0F);
         scaleXAnimation.setInterpolator(new AccelerateDecelerateInterpolator());

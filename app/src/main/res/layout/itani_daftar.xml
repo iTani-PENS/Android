@@ -70,19 +70,8 @@
                     android:layout_gravity="bottom|center_vertical"
                     android:src="@drawable/icon_phone"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:typeface="serif"
-                    android:layout_gravity="bottom|center_vertical"
-                    android:text="+62"
-                    android:textSize="16dp"
-                    android:textColor="@color/sub_text"
-                    />
-
                 <EditText
-                    android:id="@+id/etNoHp"
+                    android:id="@+id/etNomor_Telpon"
                     android:layout_gravity="bottom|center_vertical"
                     android:padding="10dp"
                     android:layout_width="match_parent"
@@ -91,7 +80,7 @@
                     android:typeface="serif"
                     android:inputType="number"
                     android:textSize="16dp"
-                    android:hint="No.HP"/>
+                    android:hint="628xxxx"/>
             </LinearLayout>
 
             <Button

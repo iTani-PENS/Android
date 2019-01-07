@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
+    tools:context=".Login.LogIn"
     android:background="@drawable/background">
 
     <ScrollView
@@ -42,7 +42,7 @@
                     android:src="@drawable/icon_phone"/>
 
                 <EditText
-                    android:id="@+id/etNoHp"
+                    android:id="@+id/etNomor_Telpon"
                     android:layout_gravity="bottom|center_vertical"
                     android:padding="10dp"
                     android:layout_width="match_parent"

@@ -1,5 +1,6 @@
-package com.example.lenovo.itaninew.Login;
+package com.example.lenovo.itaninew.Model;
 
+import com.example.lenovo.itaninew.Model.Profil;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
